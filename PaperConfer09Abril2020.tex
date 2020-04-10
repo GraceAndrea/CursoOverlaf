@@ -1,0 +1,60 @@
+%========= info ===================
+% Esta es una plantilla para reportes de laboratorio
+% Autor: Philip J Fry
+% Licencia: Creative Commons
+% ================================
+
+\documentclass[12pt]{article} % Declarando clase de documento
+%======= pre-ambulo ==========%
+\usepackage[utf8]{inputenc}
+% \usepackage[backend=biber, style=ieee, sorting=ynt]{biblatex}
+\usepackage[backend=biber, style=apa]{biblatex}
+\addbibresource{ref.bib}
+%====Generador de texto Dummy===
+\usepackage{lipsum}
+%===== Definiendo Idioma Español =======
+%\usepackage[spanish]{babel}
+%\selectlanguage{spanish}
+% ===Control de Margenes
+\usepackage[a4paper,tmargin=3cm,bmargin=2.5cm,lmargin=3cm, rmargin=2.5cm, bindingoffset=6mm]{geometry}
+
+%====== Datos Generales =========
+\title{Paper        Conferencia}
+\author{Grace A. Lema }
+\date{Abril, 2020}
+%======= Documento ==============
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+En \cite{nogueira2017image} se dispone de una revisión sistemática de la literatura. Sin embargo, la propuesta indicada en \cite{dawkins_biology_2016} contradicen lo habitual. El trabajo propuesto por \cite{priandana2018backprop} utiliza el algoritmo de \textit{backpropagation} para controlar un robot de rueda.\\
+Este es un nuevo parrafo bla bla bla. El niño de asturias.
+\vspace{1.5cm}
+
+\lipsum[2-4]
+
+\section{Revisión de Literatura}
+\subsection{Cadena de busqueda}
+\lipsum[1-4]
+\subsection{Criterios de inclusión y Exclusión}
+\lipsum[1-4]
+\subsection{Extracción de Información}
+\subsection{Criterios de Calidad}
+\lipsum[1-4]
+\subsection{Amenaza de la validez}
+\lipsum[1-4]
+\subsection{Discusión}
+Aquí voy a escribir la discusión \\
+\citeauthor{dawkins_biology_2016} (\citeyear{dawkins_biology_2016}) afirma que agnosticismo es una filosofía incompleto. \citeauthor{nogueira2017image} (\citeyear{nogueira2017image}) contradice la anterior afirmación y presenta un ejemplo. Finalmente, se ha demostrado que es un filosofía válida \parencite[ver pag 92]{priandana2018backprop}. "El agnosticismo indica que hay un 50\% de verdad en la tesis uno y en la tesis dos" \textcite{nogueira2017image}.
+
+\section{Metodología}
+\lipsum[1-4]
+\section{Resultados Experimentales}
+\lipsum[1-4]
+\section{Conclusiones y trabajos Futuros}
+\lipsum[1-4]
+\printbibliography[title={Bibliografía}]
+
+
+\end{document}

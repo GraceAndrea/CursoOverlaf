@@ -1,0 +1,21 @@
+# CursoOverlaf
+
+formato de tesis en overleaf
+https://github.com/LeninGF/Computer-Science-Master-Thesis-EPN-Template
+
+Para verificar errores en la bibliografía de internet
+http://www.lsnl.jp/cgi-bin/bibcheck
+https://truben.no/latex/bibtex/
+https://www.bibme.org/
+
+En caso de tablas que excedan el tamaño de la hoja
+https://es.overleaf.com/latex/examples/a-longtable-plus-tabularx-example/rcrxtjbrvyft
+https://www.ctan.org/pkg/tabularx
+
+Para crear código de matrices en overleaf
+http://www.tablesgenerator.com/#
+
+Símbolos de Latex
+https://kapeli.com/cheat_sheets/LaTeX_Math_Symbols.docset/Contents/Resources/Documents/index
+http://tug.ctan.org/info/undergradmath/undergradmath.pdf
+overleaf.com/latex/examples/algorithmicx-algpseudocode-example/bqdwppsxcyrb
